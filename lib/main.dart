@@ -1,14 +1,10 @@
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_tut/login.dart';
-import 'package:firebase_tut/signup.dart';
 import 'package:firebase_tut/splashScreen.dart';
 import 'package:flutter/material.dart';
 
-Future<void> main () async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+void main() {
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

@@ -3,7 +3,6 @@ import 'package:firebase_tut/hot_events.dart';
 import 'package:firebase_tut/placement_section.dart';
 import 'package:firebase_tut/schedule.dart';
 import 'package:firebase_tut/student_exam_section.dart';
-import 'package:firebase_tut/login.dart';
 // import 'package:college_management_system/placement_records.dart' as placement_section;
 import 'package:firebase_tut/widgets/circlebuttom.dart';
 import 'package:firebase_tut/widgets/search.dart';

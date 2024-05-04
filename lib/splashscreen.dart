@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:ui';
-
-import 'package:firebase_tut/login.dart';
+import 'package:firebase_tut/dashboardfinal.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +14,7 @@ class _Splash_ScreenState extends State<Splash_Screen> {
     super.initState();
     Timer(Duration(seconds: 2),
             () {
-              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>LoginPage()));
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>DashBoard()));
             });
 }
   Widget build(BuildContext context) {
